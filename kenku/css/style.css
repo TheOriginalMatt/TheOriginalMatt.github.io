@@ -53,4 +53,5 @@ h1 {
 	box-shadow: 0px 4px 10px 3px #efefef;
 	flex-grow: 1;
 	text-align: center;
+	white-space:nowrap;
 }
