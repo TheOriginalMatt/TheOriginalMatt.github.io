@@ -43,7 +43,7 @@ function clickFunction(event) {
 }
 
 $(function() {
-	var soundJSON =$.get("http://localhost:81/gitlabSite/Kenku/json/sounds.json");
+	var soundJSON =$.get("https://theoriginalmatt.github.io/kenku/json/sounds.json");
 	soundJSON.done(function(soundArray){
 
 		createHowlArray(soundArray);
