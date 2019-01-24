@@ -17,7 +17,7 @@
 	},
 	{"id": "crying",
 		"name": 	 "Crying", 
-		"source":	 ["./audio/crying.wav"], 
+		"source":	 ["./audio/crying.mp3"], 
 		"autoplay":  false, 
 		"volume": 	 1, 
 		"loop": 	 false,
