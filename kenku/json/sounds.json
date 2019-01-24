@@ -1,0 +1,34 @@
+[
+	{"id": "make-my-day",
+		"name": 	 "'Go ahead, make my day.'", 
+		"source":	 ["./audio/go-ahead-make-my-day.wav"], 
+		"autoplay":  false, 
+		"volume": 	 1, 
+		"loop": 	 false,
+		"link": 	 "http://www.wavlist.com/movies/189/index.html"
+	},
+	{"id": "bed-squeaking",
+		"name": 	 "'Awwww'", 
+		"source":	 ["./audio/go-ahead-make-my-day.wav"], 
+		"autoplay":  false, 
+		"volume": 	 1, 
+		"loop": 	 false,
+		"link": 	 ""
+	},
+	{"id": "crying",
+		"name": 	 "Crying", 
+		"source":	 ["./audio/go-ahead-make-my-day.wav"], 
+		"autoplay":  false, 
+		"volume": 	 1, 
+		"loop": 	 false,
+		"link": 	 ""
+	},
+	{"id": "crow",
+		"name": 	 "Crow Call", 
+		"source":	 ["./audio/crow-call.mp3"], 
+		"autoplay":  false, 
+		"volume": 	 1, 
+		"loop": 	 false,
+		"link": 	 "https://www.youtube.com/watch?v=xg92vEt4sW0&vl=en"
+	}
+]
