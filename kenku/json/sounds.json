@@ -9,7 +9,7 @@
 	},
 	{"id": "aww",
 		"name": 	 "'Awwww'", 
-		"source":	 ["./audio/awww.wav"], 
+		"source":	 ["./audio/aww.mp3"], 
 		"autoplay":  false, 
 		"volume": 	 1, 
 		"loop": 	 false,
