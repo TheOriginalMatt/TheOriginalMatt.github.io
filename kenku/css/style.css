@@ -2,6 +2,12 @@ body {
 	background-color: #FAF9F9;
 	margin: 0;
 	padding: 0;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
 }
 
 #header-container {
@@ -53,6 +59,12 @@ h1 {
 	box-shadow: 0px 4px 10px 3px #efefef;
 	flex-grow: 1;
 	text-align: center;
+<<<<<<< HEAD
 	white-space:nowrap;
 	
 }
+=======
+	text-align: center;
+	white-space:nowrap;
+}
+>>>>>>> 078476ad67eee372752397997fbeb4fab8c6af8b
