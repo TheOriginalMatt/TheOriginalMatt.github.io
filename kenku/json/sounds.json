@@ -70,5 +70,29 @@
 		"volume": 	 1, 
 		"loop": 	 false,
 		"link": 	 "https://www.youtube.com/watch?v=Olfg9KK_bmE"
+	},
+	{"id": "horse",
+		"name": 	 "Horse Neighing", 
+		"source":	 ["./audio/horse-neighing.mp3"], 
+		"autoplay":  false, 
+		"volume": 	 1, 
+		"loop": 	 false,
+		"link": 	 "https://www.youtube.com/watch?v=ZQOYOuSWywA"
+	},
+	{"id": "wilhelm-scream",
+		"name": 	 "Wilhelm Scream", 
+		"source":	 ["./audio/wilhelm-scream.mp3"], 
+		"autoplay":  false, 
+		"volume": 	 1, 
+		"loop": 	 false,
+		"link": 	 "https://www.youtube.com/watch?v=9FHw2aItRlw"
+	},
+	{"id": "wolf-howling",
+		"name": 	 "Wolf Howling", 
+		"source":	 ["./audio/wolf-howling.mp3"], 
+		"autoplay":  false, 
+		"volume": 	 1, 
+		"loop": 	 false,
+		"link": 	 "https://www.youtube.com/watch?v=u4EeSROl3bk"
 	}
 ]
