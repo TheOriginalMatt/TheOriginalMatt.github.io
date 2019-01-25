@@ -99,8 +99,16 @@
 		"name": 	 "Record Scratch", 
 		"source":	 ["./audio/record-scratch.mp3"], 
 		"autoplay":  false, 
-		"volume": 	 1, 
+		"volume": 	 0.75, 
 		"loop": 	 false,
 		"link": 	 "https://www.youtube.com/watch?v=rJYRW_ZFiOE"
+	},
+	{"id": "cat-meow",
+		"name": 	 "Cat Meowing", 
+		"source":	 ["./audio/cat-meowing.mp3"], 
+		"autoplay":  false, 
+		"volume": 	 0.75, 
+		"loop": 	 false,
+		"link": 	 "https://www.youtube.com/watch?v=rdYE3Wm6jX8"
 	}
 ]
