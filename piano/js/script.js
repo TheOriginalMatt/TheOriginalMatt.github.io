@@ -17,9 +17,9 @@ $(function() {
 	$('body').children().each(function() {
 		console.log($(this));
 
-		$(this).mousedown(function() {
+		$(this).on("tap", function() {
 			console.log(this.id + ": attack");
-			// synth.triggerAttackRelease(this.id, "8n");
+			synth.triggerAttackRelease(this.id, "8n");
 			$(this).css("background-color", "grey");
 		});
 		$(this).mouseup(function() {
