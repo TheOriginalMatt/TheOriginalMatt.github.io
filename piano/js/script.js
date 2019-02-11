@@ -1,6 +1,11 @@
+document.documentElement.requestFullscreen();
+
 var synth = new Tone.Synth().toMaster();
 
 $(function() {
+
+	var vHeight = $(window).height();
+	$("body").css("height", vHeight);
 	
 
 	// $("#c4").click(function(){
