@@ -17,13 +17,21 @@ $(function() {
 	$('body').children().each(function() {
 		console.log($(this));
 
-		$(this).click(function() {
+		$(this).mousedown(function() {
 			console.log(this.id + ": attack");
-			synth.triggerAttackRelease(this.id, "8n");
+			// synth.triggerAttackRelease(this.id, "8n");
+			$(this).css("background-color", "grey");
 		});
 		$(this).mouseup(function() {
 			console.log(this.id + ": release");
 			// synth.triggerRelease(this.id);
+
+			if ($(this).attr('class').split(/\s+/).includes("natural-key")) {
+				$(this).css("background-color", "white");
+
+			} else if ($(this).attr('class').split(/\s+/).includes("accidental")) {
+				$(this).css("background-color", "black");
+			}
 		});
 	});
 });
